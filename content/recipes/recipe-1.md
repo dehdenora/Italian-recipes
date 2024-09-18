@@ -1,7 +1,9 @@
 ---
 title: Risotto al limone
-tag: 
-- primo
+tags: 
+   - risotto
+image: /assets/images/lemon-risotto.webp
+difficulty: easy
 ---
 
 ![Risotto al limone](/assets/images/lemon-risotto.webp)

@@ -1,5 +1,8 @@
 ---
 title: Risotto alla zucca
+tags: 
+  - risotto
+image: /assets/images/risotto-zucca.jpg
 ---
 
 ![Risotto alla zucca](/assets/images/risotto-zucca.jpg)

@@ -1,5 +1,8 @@
 ---
 title: Risotto alla milanese
+tags: 
+  - risotto
+image: /assets/images/risotto-alla-milanese.jpg
 ---
 
 ![Risotto alla milanese](/assets/images/risotto-alla-milanese.jpg)

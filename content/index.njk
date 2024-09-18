@@ -3,15 +3,33 @@ title: Italian Recipes
 layout: base.njk
 ---
 
-<h2>Discover Risotto</h2>
-<p>Risotto is an Italian dish, a classic comfort food that has gained international popularity. Risotto is a rice-based
-  dish, with Arborio rice being the most commonly used variety. What sets risotto apart is the method of preparation,
-  involving a slow and gradual addition of liquid to the rice, which results in a creamy consistency while maintaining a
-  distinct bite. Risotto is perfect because it's versatile, allowing for a wide range of flavor variations.</p>
-<img src="../assets/images/risotto.jpg" alt="risotto in a plate" width="30%" height="30%">
+<p>Welcome to our Italian recipe website, where you'll find a variety of delicious and easy-to-follow recipes focused on two classic dishes: risotto and gnocchi. We offer simple guides to help you create flavorful meals at home, whether you're looking for a rich and creamy risotto or comforting, soft gnocchi.</p>
 
-  <ul>
-    <li><a href="/recipes/recipe-1/">Risotto al limone</a></li>
-    <li><a href="/recipes/recipe-2/">Risotto alla milanese</a></li>
-    <li><a href="/recipes/recipe-2/">Risotto alla zucca</a></li>
-  </ul>
+
+<h2>Risotti</h2>
+<ul>
+  {# Loop through the posts collection and print the titles with links #}
+  {% for recipe in collections.risotto %}
+    <li>
+      <a href="{{ recipe.url }}">
+        <h3>{{ recipe.data.title }}</h3>
+      </a>
+    <p>{{ recipe.data.tags }}</p>
+    <img src="{{ recipe.data.image }}" alt="{{ title }}" width="20%">
+    </li>
+  {% endfor %}
+</ul> 
+
+ <h3>Gnocchi</h3>
+<ul>
+  {# Loop through the posts collection and print the titles with links #}
+  {% for recipe in collections.gnocchi %}
+    <li>
+      <a href="{{ recipe.url }}">
+        <h3>{{ recipe.data.title }}</h3>
+      </a>
+    <p>{{ recipe.data.tags }}</p>
+    <img src="{{ recipe.data.image }}" alt=" {{ title }}" width="20%">
+    </li>
+  {% endfor %}
+</ul> 
