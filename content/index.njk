@@ -1,11 +1,17 @@
 ---
-title: Italian Recipes
+title: Recipes for Italian first dishes
 layout: base.njk
 ---
 
-<p>Welcome to our Italian recipe website, where you'll find a variety of delicious and easy-to-follow recipes focused on two classic dishes: risotto and gnocchi. We offer simple guides to help you create flavorful meals at home, whether you're looking for a rich and creamy risotto or comforting, soft gnocchi.</p>
+<main>
 
+<div class="decription">
+<p>Welcome to our Italian recipe website, where we bring the timeless flavors of Italy straight to your kitchen. Our site is dedicated to sharing delicious, easy-to-follow recipes, with a special emphasis on two of Italy’s most beloved dishes: risotto and gnocchi. Guided by the expertise of passionate chefs, we offer a carefully crafted selection of recipes that make it easy for you to recreate restaurant-quality meals at home.
+Our chefs, with years of experience in authentic Italian cooking, provide step-by-step instructions, insider tips, and techniques to ensure that every dish you prepare turns out perfectly. Whether you're dreaming of a creamy, gourmet truffle risotto or tender, pillowy gnocchi that melts in your mouth, we’ve got recipes that capture the essence of traditional Italian cuisine.
+With guidance from professional chefs, you’ll learn how to elevate simple ingredients into unforgettable meals. Whether you’re an experienced cook or just starting your culinary journey, our chefs' insights will inspire you to confidently prepare rich, flavorful risottos and perfectly textured gnocchi. Let our chefs be your mentors as you explore the art of Italian cooking from the comfort of your home!</p>
+</div>
 
+<section class="grid">
 <h2>Risotti</h2>
 <ul>
   {# Loop through the posts collection and print the titles with links #}
@@ -15,12 +21,12 @@ layout: base.njk
         <h3>{{ recipe.data.title }}</h3>
       </a>
     <p>{{ recipe.data.tags }}</p>
-    <img src="{{ recipe.data.image }}" alt="{{ title }}" width="20%">
+    <img src="{{ recipe.data.image }}" alt="{{ title }}" max-width="100%" width="300px">
     </li>
   {% endfor %}
 </ul> 
 
- <h3>Gnocchi</h3>
+ <h2>Gnocchi</h2>
 <ul>
   {# Loop through the posts collection and print the titles with links #}
   {% for recipe in collections.gnocchi %}
@@ -29,7 +35,9 @@ layout: base.njk
         <h3>{{ recipe.data.title }}</h3>
       </a>
     <p>{{ recipe.data.tags }}</p>
-    <img src="{{ recipe.data.image }}" alt=" {{ title }}" width="20%">
+    <img src="{{ recipe.data.image }}" alt=" {{ title }}" max-width="100%" width="300px">
     </li>
   {% endfor %}
 </ul> 
+</section>
+</main>

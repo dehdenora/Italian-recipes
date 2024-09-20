@@ -3,17 +3,16 @@ title: Risotto alla milanese
 tags: 
   - risotto
 image: /assets/images/risotto-alla-milanese.jpg
+difficulty: medium
+preparation: 15 minutes
+cooktime: 20 minutes
+serving: 4 people
+cost: high
 ---
 
 ![Risotto alla milanese](/assets/images/risotto-alla-milanese.jpg)
 
 Risotto alla Milanese is a classic risotto in the region of Lombardy, known for its rich saffron flavor, and usually paired with ossobuco (sliced veal shank).
-
-*   Difficulty: **Medium**
-*   Preparation: **15 minutes**
-*   Cook time: **20 minutes**
-*   Serving: **4 people**
-*   Cost: **High**
 
 ### Ingredients
 

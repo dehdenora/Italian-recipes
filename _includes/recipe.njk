@@ -2,22 +2,30 @@
 layout: base.njk
 ---
 
-difficulty {{ difficulty }} 
+<ul>
+<li><b>difficulty:</b> {{ difficulty }}</li>
+<li><b>preparation:</b> {{ preparation }}</li>
+<li><b>cook time:</b> {{ cooktime }}</li>
+<li><b>serving:</b> {{ serving }}</li>
+<li><b>cost:</b> {{ cost }}</li>
+</ul>
 
-{{ content | safe }} 
-Tags: {{ tags }}
-
+{{ content | safe }} Tags: {{ tags }}
 <ul>
   <h2>Explore also:</h2>
   {# Loop through the posts collection and print the titles with links, excluding the current page #}
   {% for recipe in collections.recipe %}
     {% if recipe.url != page.url %}
-      <li>
-        <a href="{{ recipe.url }}">
-          <h3>{{ recipe.data.title }}</h3>
-        </a>
-        {# <p>{{ recipe.data.tags }}</p> #}
-        <img src="{{ recipe.data.image }}" alt="{{ recipe.data.title }}" width="20%"></li>
+      {% if (tags | dump) == (recipe.data.tags | dump) %}
+        {# If the arrays match, display this message #}
+        {{ tags }}
+        <li>
+          <a href="{{ recipe.url }}">
+            <h3>{{ recipe.data.title }}</h3>
+          </a>
+          {# <p>{{ recipe.data.tags }}</p> #}
+          <img src="{{ recipe.data.image }}" alt="{{ recipe.data.title }}" width="20%"></li>
+        {% endif %}
       {% endif %}
     {% endfor %}
   </ul>

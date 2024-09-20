@@ -3,17 +3,16 @@ title: Risotto alla zucca
 tags: 
   - risotto
 image: /assets/images/risotto-zucca.jpg
+difficulty: medium
+preparation: 20 minutes
+cooktime: 50 minutes
+serving: 4 people
+cost: low
 ---
 
 ![Risotto alla zucca](/assets/images/risotto-zucca.jpg)
 
 Risotto alla zucca is a delightful and flavorful dish, perfect for the fall season.
-
-*   Difficulty: **Medium**
-*   Preparation: **20 minutes**
-*   Cook time: **50 minutes**
-*   Serving: **4 people**
-*   Cost: **Low**
 
 ### Ingredients
 

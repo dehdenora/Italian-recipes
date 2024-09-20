@@ -3,17 +3,16 @@ title: Gnocchi alla norma
 tags: 
    - gnocchi
 image: /assets/images/gnocchi-norma.jpg
+difficulty: easy
+preparation: 20 minutes
+cooktime: 30 minutes
+serving: 4 people
+cost: low
 ---
 
 ![Gnocchi alla norma](/assets/images/gnocchi-norma.jpg)
 
 Gnocchi alla Norma is a delightful Sicilian dish with the perfect combination of eggplant, tomato sauce, and creamy cheese.
-
-*   Difficulty: **Easy**
-*   Preparation: **20 minutes**
-*   Cook time: **30 minutes**
-*   Serving: **4 people**
-*   Cost: **Low**
 
 ### Ingredients:
 

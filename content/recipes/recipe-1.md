@@ -2,19 +2,17 @@
 title: Risotto al limone
 tags: 
    - risotto
-image: /assets/images/lemon-risotto.webp
+image: /assets/images/risotto-limone.jpg
 difficulty: easy
+preparation: 10 minutes
+cooktime: 22 minutes
+serving: 4 people
+cost: low
 ---
 
-![Risotto al limone](/assets/images/lemon-risotto.webp)
+![Risotto al limone](/assets/images/risotto-limone.jpg)
 
 Risotto al limone is a vibrant and refreshing dish, perfect for summer time.
-
-*   Difficulty: **Easy**
-*   Preparation: **10 minutes**
-*   Cook time: **22 minutes**
-*   Serving: **4 people**
-*   Cost: **Low**
 
 ### Ingredients:
 

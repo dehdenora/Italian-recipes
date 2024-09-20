@@ -1,7 +1,21 @@
-<nav>
-  <ul>
-    <li><a href="/" class="{% if page.url == '/' %}active-page{% endif %}">Home</a></li>
-    <li><a href="/about/" class="{% if page.url == '/about/' %}active-page{% endif %}">About</a></li>
-  </ul>
+<nav class="navigation flex">
+  <a href="/" class="{% if page.url == '/' %}active-page{% endif %} navigation-link">
+    <svg id="Livello_1" data-name="Livello 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 792.29 268.28" width="792" height="268" class="logo">
+      <polygon
+        points="333.71 139.69 341.9 92.61 307.75 59.18 355.06 52.41 376.31 9.61 397.36 52.51 444.63 59.49 410.34 92.76 418.31
+          139.88 376.06 117.55 333.71 139.69"
+        style="fill: none; stroke: #be1622; stroke-miterlimit: 10; stroke-width: 8.5px;"/>
+      <text transform="translate(0 238.78)" style="fill: #be1622; font-family: Manrope-SemiBold, Manrope; font-weight: 600;">
+        <tspan x="0" y="0" style="font-size: 100px;">I</tspan>
+        <tspan x="26.45" y="0" style="font-size: 100px; letter-spacing: -.02em;">T</tspan>
+        <tspan x="84.8" y="0" style="font-size: 100px;">ALIAN R</tspan>
+        <tspan x="451.2" y="0" style="font-size: 100px; letter-spacing: -.03em;">E</tspan>
+        <tspan x="506.7" y="0" style="font-size: 100px;">CIP</tspan>
+        <tspan x="668.89" y="0" style="font-size: 100px; letter-spacing: -.01em;">E</tspan>
+        <tspan x="725.54" y="0" style="font-size: 100px;">S</tspan>
+        <tspan x="789.89" y="0" style="font-size: 12px; letter-spacing: 0em;"></tspan>
+      </text>
+    </svg>
+  </a>
+  <a href="/about/" class="{% if page.url == '/about/' %}active-page{% endif %} navigation-link">About our chefs</a>
 </nav>
-

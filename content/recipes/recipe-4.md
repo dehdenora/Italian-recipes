@@ -3,17 +3,16 @@ title: Gnocchi alla sorrentina
 tags: 
    - gnocchi
 image: /assets/images/gnocchi-sorrentina.jpg
+difficulty: easy
+preparation: 15 minutes
+cooktime: 25 minutes
+serving: 4 people
+cost: low
 ---
 
 ![Gnocchi alla sorrentina](/assets/images/gnocchi-sorrrentina.jpg)
 
 Gnocchi alla Sorrentina is a comforting and flavorful Italian dish, perfect for a cozy dinner with family.
-
-*   Difficulty: **Easy**
-*   Preparation: **15 minutes**
-*   Cook time: **25 minutes**
-*   Serving: **4 people**
-*   Cost: **Low**
 
 ### Ingredients:
 

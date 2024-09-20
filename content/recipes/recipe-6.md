@@ -3,17 +3,16 @@ title: Gnocchi al pesto di pistacchi
 tags: 
    - gnocchi
 image: /assets/images/gnocchi-pesto.jpg
+difficulty: easy
+preparation: 10 minutes
+cooktime: 15 minutes
+serving: 4 people
+cost: medium
 ---
 
 ![Gnocchi al pesto di pistacchi](/assets/images/gnocchi-pesto.jpg)
 
 Gnocchi with Pesto di Pistacchi is a rich and creamy dish with the nutty flavor of pistachios, perfect for a quick yet elegant meal.
-
-*   Difficulty: **Easy**
-*   Preparation: **10 minutes**
-*   Cook time: **15 minutes**
-*   Serving: **4 people**
-*   Cost: **Medium**
 
 ### Ingredients:
 
